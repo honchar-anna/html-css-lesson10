@@ -1,0 +1,37 @@
+@mixin box {
+   width: 80px;
+   height: 100%;
+   overflow: hidden;
+   position: relative;
+   transition: all 0.7s;
+   background-color: cadetblue;
+   border-right: solid 1px rgba(0, 0, 0, 0.412);
+}
+@mixin logo {
+   width: 80px;
+      height: 100%;
+      position: relative;
+      background-position: center;
+      background-size: 40%;
+      background-repeat: no-repeat;
+      transition: all 0.7s;
+}
+@mixin logo1 {
+   width: 1px;
+      height: 100%;
+      position: absolute;
+      top: 0px;
+      left: 80px;
+      background-position: center;
+      background-size: 60%;
+      background-repeat: no-repeat;
+      transition: all 0.7s;
+}
+@mixin info {
+   position: absolute;
+      top: 0;
+      left: 80px;
+      width: 350px;
+      height: 100%;
+      background-color: rgb(252, 252, 252);
+}
